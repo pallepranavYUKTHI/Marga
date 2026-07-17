@@ -1,0 +1,244 @@
+{
+  "Bakery": {
+    "workflow_name": "Bakery Business Registration",
+    "estimated_completion_days": 17,
+    "estimated_cost": 1350,
+    "steps": [
+      {
+        "id": 1,
+        "name": "Trade License",
+        "type": "registration",
+        "depends_on": [],
+        "parallel": true,
+        "priority": "High"
+      },
+      {
+        "id": 2,
+        "name": "GST Registration",
+        "type": "registration",
+        "depends_on": [],
+        "parallel": true,
+        "priority": "High"
+      },
+      {
+        "id": 3,
+        "name": "FSSAI Registration",
+        "type": "license",
+        "depends_on": [
+          "Trade License"
+        ],
+        "parallel": false,
+        "priority": "Critical"
+      }
+    ]
+  },
+
+  "Restaurant": {
+    "workflow_name": "Restaurant Registration",
+    "estimated_completion_days": 35,
+    "estimated_cost": 9500,
+    "steps": [
+      {
+        "id": 1,
+        "name": "Trade License",
+        "depends_on": [],
+        "parallel": true,
+        "priority": "High"
+      },
+      {
+        "id": 2,
+        "name": "GST Registration",
+        "depends_on": [],
+        "parallel": true,
+        "priority": "High"
+      },
+      {
+        "id": 3,
+        "name": "Fire NOC",
+        "depends_on": [],
+        "parallel": true,
+        "priority": "Critical"
+      },
+      {
+        "id": 4,
+        "name": "FSSAI State License",
+        "depends_on": [
+          "Trade License"
+        ],
+        "parallel": false,
+        "priority": "Critical"
+      }
+    ]
+  },
+
+  "Medical Store": {
+    "workflow_name": "Medical Store Registration",
+    "estimated_completion_days": 45,
+    "estimated_cost": 6500,
+    "steps": [
+      {
+        "id": 1,
+        "name": "Trade License",
+        "depends_on": [],
+        "parallel": true
+      },
+      {
+        "id": 2,
+        "name": "GST Registration",
+        "depends_on": [],
+        "parallel": true
+      },
+      {
+        "id": 3,
+        "name": "Drug License",
+        "depends_on": [
+          "Trade License"
+        ],
+        "parallel": false
+      }
+    ]
+  },
+
+  "IT Startup": {
+    "workflow_name": "IT Startup Registration",
+    "estimated_completion_days": 12,
+    "estimated_cost": 500,
+    "steps": [
+      {
+        "id": 1,
+        "name": "GST Registration",
+        "depends_on": [],
+        "parallel": true
+      },
+      {
+        "id": 2,
+        "name": "Startup India Registration",
+        "depends_on": [],
+        "parallel": true
+      },
+      {
+        "id": 3,
+        "name": "Shops & Establishment Registration",
+        "depends_on": [],
+        "parallel": true
+      }
+    ]
+  },
+
+  "Manufacturing Unit": {
+    "workflow_name": "Manufacturing Unit Registration",
+    "estimated_completion_days": 90,
+    "estimated_cost": 25000,
+    "steps": [
+      {
+        "id": 1,
+        "name": "GST Registration",
+        "depends_on": [],
+        "parallel": true
+      },
+      {
+        "id": 2,
+        "name": "Pollution Clearance",
+        "depends_on": [],
+        "parallel": true
+      },
+      {
+        "id": 3,
+        "name": "Fire NOC",
+        "depends_on": [],
+        "parallel": true
+      },
+      {
+        "id": 4,
+        "name": "Factory License",
+        "depends_on": [
+          "Pollution Clearance",
+          "Fire NOC"
+        ],
+        "parallel": false
+      }
+    ]
+  },
+
+  "Hotel": {
+    "workflow_name": "Hotel Registration",
+    "estimated_completion_days": 60,
+    "estimated_cost": 12000,
+    "steps": [
+      {
+        "id": 1,
+        "name": "Trade License",
+        "depends_on": [],
+        "parallel": true
+      },
+      {
+        "id": 2,
+        "name": "GST Registration",
+        "depends_on": [],
+        "parallel": true
+      },
+      {
+        "id": 3,
+        "name": "Fire NOC",
+        "depends_on": [],
+        "parallel": true
+      },
+      {
+        "id": 4,
+        "name": "FSSAI License",
+        "depends_on": [
+          "Trade License"
+        ],
+        "parallel": false
+      },
+      {
+        "id": 5,
+        "name": "Tourism Registration",
+        "depends_on": [
+          "Trade License"
+        ],
+        "parallel": false
+      }
+    ]
+  },
+
+  "Gym": {
+    "workflow_name": "Gym Registration",
+    "estimated_completion_days": 20,
+    "estimated_cost": 2500,
+    "steps": [
+      {
+        "id": 1,
+        "name": "Trade License",
+        "depends_on": [],
+        "parallel": true
+      },
+      {
+        "id": 2,
+        "name": "GST Registration",
+        "depends_on": [],
+        "parallel": true
+      }
+    ]
+  },
+
+  "Salon": {
+    "workflow_name": "Salon Registration",
+    "estimated_completion_days": 15,
+    "estimated_cost": 1200,
+    "steps": [
+      {
+        "id": 1,
+        "name": "Trade License",
+        "depends_on": [],
+        "parallel": true
+      },
+      {
+        "id": 2,
+        "name": "GST Registration",
+        "depends_on": [],
+        "parallel": true
+      }
+    ]
+  }
+}

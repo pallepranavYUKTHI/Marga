@@ -1,0 +1,172 @@
+{
+  "Trade License": {
+    "required_before": [
+      "FSSAI Registration",
+      "FSSAI State License",
+      "Drug License",
+      "Clinical Establishment Registration",
+      "Tourism Registration"
+    ],
+    "blocks_if_missing": [
+      "Food Business Operations",
+      "Medical Store Registration",
+      "Hospital Registration",
+      "Hotel Registration"
+    ],
+    "can_run_parallel_with": [
+      "GST Registration",
+      "Startup India Registration",
+      "Shops & Establishment Registration"
+    ],
+    "failure_impact": "High",
+    "recommendation": "Apply immediately since many later approvals depend on it."
+  },
+
+  "GST Registration": {
+    "required_before": [],
+    "blocks_if_missing": [
+      "Tax Invoice Generation",
+      "GST Compliance"
+    ],
+    "can_run_parallel_with": [
+      "Trade License",
+      "Fire NOC",
+      "Startup India Registration"
+    ],
+    "failure_impact": "Medium",
+    "recommendation": "Complete early to enable business taxation."
+  },
+
+  "FSSAI Registration": {
+    "required_before": [
+      "Food Product Sales"
+    ],
+    "blocks_if_missing": [
+      "Bakery",
+      "Cafe",
+      "Restaurant",
+      "Cloud Kitchen"
+    ],
+    "can_run_parallel_with": [],
+    "failure_impact": "Critical",
+    "recommendation": "Mandatory before selling food."
+  },
+
+  "Drug License": {
+    "required_before": [
+      "Medicine Sales"
+    ],
+    "blocks_if_missing": [
+      "Medical Store"
+    ],
+    "can_run_parallel_with": [],
+    "failure_impact": "Critical",
+    "recommendation": "Cannot legally sell medicines without this license."
+  },
+
+  "Fire NOC": {
+    "required_before": [
+      "Factory License",
+      "Hotel Opening"
+    ],
+    "blocks_if_missing": [
+      "Factory Operations",
+      "Restaurant Operations",
+      "Hotel Operations"
+    ],
+    "can_run_parallel_with": [
+      "GST Registration",
+      "Trade License"
+    ],
+    "failure_impact": "High",
+    "recommendation": "Arrange fire inspection as early as possible."
+  },
+
+  "Pollution Clearance": {
+    "required_before": [
+      "Factory License"
+    ],
+    "blocks_if_missing": [
+      "Manufacturing Unit"
+    ],
+    "can_run_parallel_with": [
+      "GST Registration"
+    ],
+    "failure_impact": "Critical",
+    "recommendation": "Environmental approval is mandatory for industrial units."
+  },
+
+  "Factory License": {
+    "required_before": [
+      "Manufacturing Operations"
+    ],
+    "blocks_if_missing": [
+      "Manufacturing Unit"
+    ],
+    "can_run_parallel_with": [],
+    "failure_impact": "Critical",
+    "recommendation": "Final approval after Fire NOC and Pollution Clearance."
+  },
+
+  "Startup India Registration": {
+    "required_before": [],
+    "blocks_if_missing": [],
+    "can_run_parallel_with": [
+      "GST Registration",
+      "Trade License"
+    ],
+    "failure_impact": "Low",
+    "recommendation": "Optional but provides startup benefits."
+  },
+
+  "Shops & Establishment Registration": {
+    "required_before": [],
+    "blocks_if_missing": [],
+    "can_run_parallel_with": [
+      "GST Registration",
+      "Trade License"
+    ],
+    "failure_impact": "Low",
+    "recommendation": "Register as early as possible."
+  },
+
+  "Clinical Establishment Registration": {
+    "required_before": [
+      "Hospital Operations",
+      "Clinic Operations"
+    ],
+    "blocks_if_missing": [
+      "Hospital",
+      "Clinic"
+    ],
+    "can_run_parallel_with": [],
+    "failure_impact": "Critical",
+    "recommendation": "Mandatory for healthcare facilities."
+  },
+
+  "Tourism Registration": {
+    "required_before": [
+      "Hotel Promotion"
+    ],
+    "blocks_if_missing": [],
+    "can_run_parallel_with": [
+      "GST Registration"
+    ],
+    "failure_impact": "Low",
+    "recommendation": "Recommended for hotels and resorts."
+  },
+
+  "Electricity Board Approval": {
+    "required_before": [
+      "EV Charging Station Operations"
+    ],
+    "blocks_if_missing": [
+      "EV Charging Station"
+    ],
+    "can_run_parallel_with": [
+      "GST Registration"
+    ],
+    "failure_impact": "High",
+    "recommendation": "Essential before installing charging equipment."
+  }
+}
