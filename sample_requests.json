@@ -1,0 +1,82 @@
+[
+  {
+    "request_id": "REQ001",
+    "business_name": "Bakery",
+    "applicant_name": "Rahul Sharma",
+    "location": "Kochi, Kerala",
+    "entrepreneur_type": "Individual",
+    "current_status": "Pending Trade License",
+    "submitted_documents": [
+      "Aadhaar Card",
+      "PAN Card"
+    ],
+    "missing_documents": [
+      "Business Address Proof",
+      "Rental Agreement"
+    ],
+    "next_step": "Apply for Trade License"
+  },
+  {
+    "request_id": "REQ002",
+    "business_name": "Restaurant",
+    "applicant_name": "Ananya Nair",
+    "location": "Thiruvananthapuram, Kerala",
+    "entrepreneur_type": "Partnership",
+    "current_status": "Fire NOC Pending",
+    "submitted_documents": [
+      "Trade License",
+      "GST Registration"
+    ],
+    "missing_documents": [
+      "Fire Safety Inspection Report"
+    ],
+    "next_step": "Schedule Fire Inspection"
+  },
+  {
+    "request_id": "REQ003",
+    "business_name": "Medical Store",
+    "applicant_name": "Vivek Menon",
+    "location": "Kozhikode, Kerala",
+    "entrepreneur_type": "Individual",
+    "current_status": "Drug License Pending",
+    "submitted_documents": [
+      "Trade License",
+      "GST Registration"
+    ],
+    "missing_documents": [
+      "Registered Pharmacist Certificate"
+    ],
+    "next_step": "Apply for Drug License"
+  },
+  {
+    "request_id": "REQ004",
+    "business_name": "IT Startup",
+    "applicant_name": "Priya Krishnan",
+    "location": "Bengaluru, Karnataka",
+    "entrepreneur_type": "Private Limited",
+    "current_status": "Startup India Registration Pending",
+    "submitted_documents": [
+      "GST Registration",
+      "Certificate of Incorporation"
+    ],
+    "missing_documents": [],
+    "next_step": "Apply for Startup India Recognition"
+  },
+  {
+    "request_id": "REQ005",
+    "business_name": "Hotel",
+    "applicant_name": "Arjun Das",
+    "location": "Munnar, Kerala",
+    "entrepreneur_type": "Private Limited",
+    "current_status": "FSSAI License Pending",
+    "submitted_documents": [
+      "Trade License",
+      "GST Registration",
+      "Fire NOC"
+    ],
+    "missing_documents": [
+      "Food Safety Management Plan"
+    ],
+    "next_step": "Apply for FSSAI License"
+  }
+]
