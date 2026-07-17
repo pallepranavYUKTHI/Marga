@@ -1,0 +1,215 @@
+{
+  "Trade License": [
+    {
+      "document": "Identity Proof (Aadhaar/PAN/Passport)",
+      "mandatory": true,
+      "accepted_formats": ["PDF", "JPG", "PNG"],
+      "max_size_mb": 5,
+      "verification": "Government ID Verification",
+      "issued_by": "Government of India",
+      "common_errors": [
+        "Blurred image",
+        "Expired ID",
+        "Name mismatch"
+      ]
+    },
+    {
+      "document": "Business Address Proof",
+      "mandatory": true,
+      "accepted_formats": ["PDF", "JPG"],
+      "max_size_mb": 5,
+      "verification": "Manual Verification",
+      "issued_by": "Property Owner / Utility Provider",
+      "common_errors": [
+        "Old electricity bill",
+        "Incomplete address",
+        "Unreadable scan"
+      ]
+    },
+    {
+      "document": "Rental Agreement / Ownership Proof",
+      "mandatory": true,
+      "accepted_formats": ["PDF"],
+      "max_size_mb": 10,
+      "verification": "Document Verification",
+      "issued_by": "Property Owner",
+      "common_errors": [
+        "Unsigned agreement",
+        "Missing stamp paper"
+      ]
+    }
+  ],
+
+  "GST Registration": [
+    {
+      "document": "PAN Card",
+      "mandatory": true,
+      "accepted_formats": ["PDF", "JPG"],
+      "max_size_mb": 2,
+      "verification": "PAN Database",
+      "issued_by": "Income Tax Department",
+      "common_errors": [
+        "PAN number mismatch",
+        "Damaged scan"
+      ]
+    },
+    {
+      "document": "Aadhaar Card",
+      "mandatory": true,
+      "accepted_formats": ["PDF", "JPG"],
+      "max_size_mb": 2,
+      "verification": "UIDAI Verification",
+      "issued_by": "UIDAI",
+      "common_errors": [
+        "Name mismatch",
+        "DOB mismatch"
+      ]
+    },
+    {
+      "document": "Business Address Proof",
+      "mandatory": true,
+      "accepted_formats": ["PDF"],
+      "max_size_mb": 5,
+      "verification": "Address Verification",
+      "issued_by": "Utility Provider",
+      "common_errors": [
+        "Old utility bill",
+        "Wrong address"
+      ]
+    },
+    {
+      "document": "Cancelled Cheque / Bank Statement",
+      "mandatory": true,
+      "accepted_formats": ["PDF", "JPG"],
+      "max_size_mb": 3,
+      "verification": "Bank Verification",
+      "issued_by": "Bank",
+      "common_errors": [
+        "Account name mismatch",
+        "Unreadable document"
+      ]
+    }
+  ],
+
+  "FSSAI Registration": [
+    {
+      "document": "Identity Proof",
+      "mandatory": true,
+      "accepted_formats": ["PDF", "JPG"],
+      "max_size_mb": 3,
+      "verification": "Government ID",
+      "issued_by": "Government of India",
+      "common_errors": [
+        "Expired document"
+      ]
+    },
+    {
+      "document": "Passport-size Photograph",
+      "mandatory": true,
+      "accepted_formats": ["JPG", "PNG"],
+      "max_size_mb": 2,
+      "verification": "Manual",
+      "issued_by": "Applicant",
+      "common_errors": [
+        "Low resolution",
+        "Incorrect dimensions"
+      ]
+    },
+    {
+      "document": "Kitchen Layout",
+      "mandatory": true,
+      "accepted_formats": ["PDF"],
+      "max_size_mb": 10,
+      "verification": "Food Safety Officer",
+      "issued_by": "Applicant",
+      "common_errors": [
+        "Missing measurements",
+        "Incomplete drawing"
+      ]
+    }
+  ],
+
+  "Drug License": [
+    {
+      "document": "Pharmacist Registration Certificate",
+      "mandatory": true,
+      "accepted_formats": ["PDF"],
+      "max_size_mb": 5,
+      "verification": "State Pharmacy Council",
+      "issued_by": "Pharmacy Council",
+      "common_errors": [
+        "Expired certificate",
+        "Invalid registration number"
+      ]
+    },
+    {
+      "document": "Premises Layout Plan",
+      "mandatory": true,
+      "accepted_formats": ["PDF"],
+      "max_size_mb": 10,
+      "verification": "Drug Inspector",
+      "issued_by": "Applicant",
+      "common_errors": [
+        "Storage room missing",
+        "Improper dimensions"
+      ]
+    }
+  ],
+
+  "Fire NOC": [
+    {
+      "document": "Building Plan",
+      "mandatory": true,
+      "accepted_formats": ["PDF"],
+      "max_size_mb": 15,
+      "verification": "Fire Department",
+      "issued_by": "Licensed Architect",
+      "common_errors": [
+        "Fire exits missing",
+        "No emergency routes"
+      ]
+    },
+    {
+      "document": "Fire Safety Equipment Certificate",
+      "mandatory": true,
+      "accepted_formats": ["PDF"],
+      "max_size_mb": 5,
+      "verification": "Fire Inspector",
+      "issued_by": "Certified Vendor",
+      "common_errors": [
+        "Expired certificate",
+        "Equipment not listed"
+      ]
+    }
+  ],
+
+  "Pollution Clearance": [
+    {
+      "document": "Environmental Impact Report",
+      "mandatory": true,
+      "accepted_formats": ["PDF"],
+      "max_size_mb": 20,
+      "verification": "Pollution Control Board",
+      "issued_by": "Environmental Consultant",
+      "common_errors": [
+        "Incomplete report",
+        "Unsigned report"
+      ]
+    }
+  ],
+
+  "Factory License": [
+    {
+      "document": "Factory Layout Plan",
+      "mandatory": true,
+      "accepted_formats": ["PDF"],
+      "max_size_mb": 20,
+      "verification": "Labour Department",
+      "issued_by": "Licensed Engineer",
+      "common_errors": [
+        "Machine layout missing",
+        "Emergency exits not shown"
+      ]
+    }
+  ]
+}

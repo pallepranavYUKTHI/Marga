@@ -1,0 +1,178 @@
+{
+  "Trade License": {
+    "government_fee": 1000,
+    "service_charge": 200,
+    "renewal_fee": 800,
+    "payment_mode": [
+      "UPI",
+      "Net Banking",
+      "Debit Card",
+      "Credit Card"
+    ],
+    "online_payment": true,
+    "refundable": false
+  },
+
+  "GST Registration": {
+    "government_fee": 0,
+    "service_charge": 0,
+    "renewal_fee": 0,
+    "payment_mode": [],
+    "online_payment": true,
+    "refundable": false
+  },
+
+  "FSSAI Registration": {
+    "government_fee": 100,
+    "service_charge": 50,
+    "renewal_fee": 100,
+    "payment_mode": [
+      "UPI",
+      "Net Banking",
+      "Credit Card"
+    ],
+    "online_payment": true,
+    "refundable": false
+  },
+
+  "FSSAI State License": {
+    "government_fee": 3000,
+    "service_charge": 300,
+    "renewal_fee": 3000,
+    "payment_mode": [
+      "UPI",
+      "Net Banking"
+    ],
+    "online_payment": true,
+    "refundable": false
+  },
+
+  "Drug License": {
+    "government_fee": 6000,
+    "service_charge": 500,
+    "renewal_fee": 4000,
+    "payment_mode": [
+      "Demand Draft",
+      "Net Banking"
+    ],
+    "online_payment": false,
+    "refundable": false
+  },
+
+  "Fire NOC": {
+    "government_fee": 5000,
+    "service_charge": 500,
+    "renewal_fee": 2500,
+    "payment_mode": [
+      "Demand Draft",
+      "Net Banking"
+    ],
+    "online_payment": false,
+    "refundable": false
+  },
+
+  "Pollution Clearance": {
+    "government_fee": 10000,
+    "service_charge": 1000,
+    "renewal_fee": 7000,
+    "payment_mode": [
+      "Demand Draft",
+      "RTGS"
+    ],
+    "online_payment": false,
+    "refundable": false
+  },
+
+  "Factory License": {
+    "government_fee": 8000,
+    "service_charge": 800,
+    "renewal_fee": 5000,
+    "payment_mode": [
+      "Demand Draft",
+      "RTGS"
+    ],
+    "online_payment": false,
+    "refundable": false
+  },
+
+  "Startup India Registration": {
+    "government_fee": 0,
+    "service_charge": 0,
+    "renewal_fee": 0,
+    "payment_mode": [],
+    "online_payment": true,
+    "refundable": false
+  },
+
+  "Shops & Establishment Registration": {
+    "government_fee": 500,
+    "service_charge": 100,
+    "renewal_fee": 500,
+    "payment_mode": [
+      "UPI",
+      "Net Banking"
+    ],
+    "online_payment": true,
+    "refundable": false
+  },
+
+  "Clinical Establishment Registration": {
+    "government_fee": 5000,
+    "service_charge": 500,
+    "renewal_fee": 3000,
+    "payment_mode": [
+      "Net Banking"
+    ],
+    "online_payment": true,
+    "refundable": false
+  },
+
+  "Tourism Registration": {
+    "government_fee": 2500,
+    "service_charge": 300,
+    "renewal_fee": 1500,
+    "payment_mode": [
+      "UPI",
+      "Net Banking"
+    ],
+    "online_payment": true,
+    "refundable": false
+  },
+
+  "Electricity Board Approval": {
+    "government_fee": 3000,
+    "service_charge": 200,
+    "renewal_fee": 1000,
+    "payment_mode": [
+      "Net Banking",
+      "Demand Draft"
+    ],
+    "online_payment": false,
+    "refundable": false
+  },
+
+  "Society Registration": {
+    "government_fee": 1500,
+    "service_charge": 200,
+    "renewal_fee": 1000,
+    "payment_mode": [
+      "UPI",
+      "Net Banking"
+    ],
+    "online_payment": true,
+    "refundable": false
+  },
+
+  "PAN Registration": {
+    "government_fee": 110,
+    "service_charge": 0,
+    "renewal_fee": 0,
+    "payment_mode": [
+      "UPI",
+      "Net Banking",
+      "Debit Card"
+    ],
+    "online_payment": true,
+    "refundable": false
+  }
+}

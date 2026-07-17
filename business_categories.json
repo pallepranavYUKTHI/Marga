@@ -1,0 +1,161 @@
+{
+  "Food Business": {
+    "description": "Businesses involved in preparing, selling or serving food and beverages.",
+    "businesses": [
+      "Bakery",
+      "Restaurant",
+      "Cafe",
+      "Cloud Kitchen",
+      "Sweet Shop",
+      "Ice Cream Parlour",
+      "Juice Shop",
+      "Catering Service",
+      "Food Truck",
+      "Fast Food Outlet"
+    ]
+  },
+
+  "Retail": {
+    "description": "General retail and consumer goods businesses.",
+    "businesses": [
+      "Clothing Store",
+      "Electronics Store",
+      "Mobile Shop",
+      "Book Store",
+      "Furniture Store",
+      "Supermarket",
+      "Gift Shop",
+      "Toy Store",
+      "Hardware Store",
+      "Sports Shop"
+    ]
+  },
+
+  "Healthcare": {
+    "description": "Healthcare providers and medical establishments.",
+    "businesses": [
+      "Medical Store",
+      "Clinic",
+      "Hospital",
+      "Diagnostic Centre",
+      "Dental Clinic",
+      "Physiotherapy Centre",
+      "Veterinary Clinic"
+    ]
+  },
+
+  "Education": {
+    "description": "Educational institutions and training centres.",
+    "businesses": [
+      "School",
+      "College",
+      "Tuition Centre",
+      "Coaching Institute",
+      "Computer Training Centre",
+      "Music Academy",
+      "Dance Academy"
+    ]
+  },
+
+  "Hospitality": {
+    "description": "Accommodation and tourism businesses.",
+    "businesses": [
+      "Hotel",
+      "Resort",
+      "Homestay",
+      "Travel Agency",
+      "Tour Operator",
+      "Guest House"
+    ]
+  },
+
+  "Manufacturing": {
+    "description": "Industrial production and manufacturing.",
+    "businesses": [
+      "Manufacturing Unit",
+      "Textile Unit",
+      "Furniture Factory",
+      "Food Processing Unit",
+      "Plastic Manufacturing",
+      "Steel Fabrication"
+    ]
+  },
+
+  "Technology": {
+    "description": "Technology and digital service companies.",
+    "businesses": [
+      "IT Startup",
+      "Software Company",
+      "Digital Marketing Agency",
+      "Cyber Security Company",
+      "AI Startup",
+      "Web Development Company"
+    ]
+  },
+
+  "Automotive": {
+    "description": "Vehicle-related businesses.",
+    "businesses": [
+      "EV Charging Station",
+      "Petrol Pump",
+      "Vehicle Service Centre",
+      "Car Wash",
+      "Driving School",
+      "Automobile Showroom"
+    ]
+  },
+
+  "Personal Services": {
+    "description": "Businesses providing personal care and wellness services.",
+    "businesses": [
+      "Salon",
+      "Spa",
+      "Gym",
+      "Yoga Centre",
+      "Beauty Clinic",
+      "Massage Centre"
+    ]
+  },
+
+  "Agriculture": {
+    "description": "Agriculture and farming businesses.",
+    "businesses": [
+      "Poultry Farm",
+      "Dairy Farm",
+      "Fish Farm",
+      "Organic Farm",
+      "Plant Nursery"
+    ]
+  },
+
+  "Logistics": {
+    "description": "Transportation and logistics services.",
+    "businesses": [
+      "Warehouse",
+      "Courier Service",
+      "Logistics Company",
+      "Transport Company",
+      "Cold Storage"
+    ]
+  },
+
+  "Professional Services": {
+    "description": "Professional consulting and legal services.",
+    "businesses": [
+      "CA Firm",
+      "Law Firm",
+      "Consultancy",
+      "Architecture Firm",
+      "Interior Design Studio"
+    ]
+  },
+
+  "Non-Profit": {
+    "description": "Social organizations and NGOs.",
+    "businesses": [
+      "NGO",
+      "Trust",
+      "Society"
+    ]
+  }
+}

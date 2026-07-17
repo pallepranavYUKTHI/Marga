@@ -1,0 +1,277 @@
+{
+  "Bakery": {
+    "category": "Food Business",
+    "description": "Business involved in manufacturing and selling bakery products.",
+    "required_licenses": [
+      "Trade License",
+      "GST Registration",
+      "FSSAI State License"
+    ],
+    "optional_licenses": [
+      "Fire NOC"
+    ],
+    "business_size": "Small / Medium",
+    "risk_level": "Low",
+    "online_registration": true,
+    "estimated_setup_days": 25,
+    "estimated_setup_cost": 25000
+  },
+
+  "Restaurant": {
+    "category": "Food Business",
+    "description": "Commercial food service establishment.",
+    "required_licenses": [
+      "Trade License",
+      "GST Registration",
+      "FSSAI State License",
+      "Fire NOC"
+    ],
+    "optional_licenses": [
+      "Music License",
+      "Liquor License"
+    ],
+    "business_size": "Medium",
+    "risk_level": "Medium",
+    "online_registration": true,
+    "estimated_setup_days": 35,
+    "estimated_setup_cost": 60000
+  },
+
+  "Cafe": {
+    "category": "Food Business",
+    "description": "Coffee shop and beverage outlet.",
+    "required_licenses": [
+      "Trade License",
+      "GST Registration",
+      "FSSAI Registration"
+    ],
+    "optional_licenses": [
+      "Music License"
+    ],
+    "business_size": "Small",
+    "risk_level": "Low",
+    "online_registration": true,
+    "estimated_setup_days": 18,
+    "estimated_setup_cost": 18000
+  },
+
+  "Cloud Kitchen": {
+    "category": "Food Business",
+    "description": "Delivery-only food preparation business.",
+    "required_licenses": [
+      "Trade License",
+      "GST Registration",
+      "FSSAI State License"
+    ],
+    "optional_licenses": [],
+    "business_size": "Small",
+    "risk_level": "Low",
+    "online_registration": true,
+    "estimated_setup_days": 20,
+    "estimated_setup_cost": 15000
+  },
+
+  "Medical Store": {
+    "category": "Healthcare",
+    "description": "Retail pharmacy.",
+    "required_licenses": [
+      "Trade License",
+      "GST Registration",
+      "Drug License"
+    ],
+    "optional_licenses": [],
+    "business_size": "Medium",
+    "risk_level": "High",
+    "online_registration": false,
+    "estimated_setup_days": 40,
+    "estimated_setup_cost": 50000
+  },
+
+  "Hospital": {
+    "category": "Healthcare",
+    "description": "Healthcare institution.",
+    "required_licenses": [
+      "Trade License",
+      "Clinical Establishment Registration",
+      "Fire NOC",
+      "Pollution Clearance",
+      "GST Registration"
+    ],
+    "optional_licenses": [],
+    "business_size": "Large",
+    "risk_level": "High",
+    "online_registration": false,
+    "estimated_setup_days": 90,
+    "estimated_setup_cost": 500000
+  },
+
+  "Clinic": {
+    "category": "Healthcare",
+    "description": "Private clinic.",
+    "required_licenses": [
+      "Trade License",
+      "Clinical Establishment Registration",
+      "GST Registration"
+    ],
+    "optional_licenses": [],
+    "business_size": "Small",
+    "risk_level": "Medium",
+    "online_registration": true,
+    "estimated_setup_days": 25,
+    "estimated_setup_cost": 40000
+  },
+
+  "Hotel": {
+    "category": "Hospitality",
+    "description": "Hotel accommodation business.",
+    "required_licenses": [
+      "Trade License",
+      "GST Registration",
+      "Fire NOC",
+      "FSSAI License",
+      "Tourism Registration"
+    ],
+    "optional_licenses": [
+      "Liquor License"
+    ],
+    "business_size": "Large",
+    "risk_level": "High",
+    "online_registration": false,
+    "estimated_setup_days": 60,
+    "estimated_setup_cost": 300000
+  },
+
+  "Salon": {
+    "category": "Personal Services",
+    "description": "Beauty salon.",
+    "required_licenses": [
+      "Trade License",
+      "GST Registration"
+    ],
+    "optional_licenses": [],
+    "business_size": "Small",
+    "risk_level": "Low",
+    "online_registration": true,
+    "estimated_setup_days": 15,
+    "estimated_setup_cost": 15000
+  },
+
+  "Gym": {
+    "category": "Personal Services",
+    "description": "Fitness centre.",
+    "required_licenses": [
+      "Trade License",
+      "GST Registration"
+    ],
+    "optional_licenses": [
+      "Fire NOC"
+    ],
+    "business_size": "Medium",
+    "risk_level": "Medium",
+    "online_registration": true,
+    "estimated_setup_days": 18,
+    "estimated_setup_cost": 80000
+  },
+
+  "IT Startup": {
+    "category": "Technology",
+    "description": "Technology company.",
+    "required_licenses": [
+      "GST Registration",
+      "Startup India Registration",
+      "Shops & Establishment Registration"
+    ],
+    "optional_licenses": [
+      "Import Export Code"
+    ],
+    "business_size": "Small",
+    "risk_level": "Low",
+    "online_registration": true,
+    "estimated_setup_days": 10,
+    "estimated_setup_cost": 12000
+  },
+
+  "Manufacturing Unit": {
+    "category": "Manufacturing",
+    "description": "Industrial manufacturing facility.",
+    "required_licenses": [
+      "Factory License",
+      "GST Registration",
+      "Pollution Clearance",
+      "Fire NOC"
+    ],
+    "optional_licenses": [],
+    "business_size": "Large",
+    "risk_level": "High",
+    "online_registration": false,
+    "estimated_setup_days": 75,
+    "estimated_setup_cost": 250000
+  },
+
+  "EV Charging Station": {
+    "category": "Automotive",
+    "description": "Electric vehicle charging facility.",
+    "required_licenses": [
+      "Trade License",
+      "Electricity Board Approval",
+      "GST Registration"
+    ],
+    "optional_licenses": [],
+    "business_size": "Medium",
+    "risk_level": "Medium",
+    "online_registration": false,
+    "estimated_setup_days": 30,
+    "estimated_setup_cost": 150000
+  },
+
+  "Warehouse": {
+    "category": "Logistics",
+    "description": "Storage and warehousing facility.",
+    "required_licenses": [
+      "Trade License",
+      "GST Registration",
+      "Fire NOC"
+    ],
+    "optional_licenses": [],
+    "business_size": "Large",
+    "risk_level": "Medium",
+    "online_registration": true,
+    "estimated_setup_days": 28,
+    "estimated_setup_cost": 100000
+  },
+
+  "Travel Agency": {
+    "category": "Hospitality",
+    "description": "Travel booking and tourism services.",
+    "required_licenses": [
+      "Trade License",
+      "GST Registration"
+    ],
+    "optional_licenses": [
+      "IATA Accreditation"
+    ],
+    "business_size": "Small",
+    "risk_level": "Low",
+    "online_registration": true,
+    "estimated_setup_days": 12,
+    "estimated_setup_cost": 20000
+  },
+
+  "NGO": {
+    "category": "Non-Profit",
+    "description": "Non-profit organization.",
+    "required_licenses": [
+      "Society Registration",
+      "PAN Registration"
+    ],
+    "optional_licenses": [
+      "80G Registration",
+      "12A Registration"
+    ],
+    "business_size": "Small",
+    "risk_level": "Low",
+    "online_registration": true,
+    "estimated_setup_days": 30,
+    "estimated_setup_cost": 10000
+  }
+}

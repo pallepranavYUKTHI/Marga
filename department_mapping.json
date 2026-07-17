@@ -1,0 +1,185 @@
+{
+  "Trade License": {
+    "department_name": "Municipal Corporation / Local Municipality",
+    "government_level": "Local",
+    "description": "Issues licenses for commercial establishments operating within municipal limits.",
+    "application_mode": "Online & Offline",
+    "portal": "State Municipality Portal",
+    "office_hours": "09:30 AM - 05:30 PM",
+    "average_processing_days": 7,
+    "renewal_required": true,
+    "renewal_period": "Annual",
+    "common_rejection_reasons": [
+      "Incomplete address proof",
+      "Improper building approval",
+      "Business location not permitted"
+    ]
+  },
+
+  "GST Registration": {
+    "department_name": "Goods and Services Tax Department",
+    "government_level": "Central",
+    "description": "Registers businesses under the Goods and Services Tax Act.",
+    "application_mode": "Online",
+    "portal": "GST Portal",
+    "office_hours": "24x7 Online",
+    "average_processing_days": 5,
+    "renewal_required": false,
+    "renewal_period": "Not Applicable",
+    "common_rejection_reasons": [
+      "PAN mismatch",
+      "Address verification failure",
+      "Incorrect business details"
+    ]
+  },
+
+  "FSSAI Registration": {
+    "department_name": "Food Safety and Standards Authority of India",
+    "government_level": "Central",
+    "description": "Food business registration for small food establishments.",
+    "application_mode": "Online",
+    "portal": "FoSCoS",
+    "office_hours": "24x7 Online",
+    "average_processing_days": 10,
+    "renewal_required": true,
+    "renewal_period": "1-5 Years",
+    "common_rejection_reasons": [
+      "Incomplete food safety documents",
+      "Invalid premises information"
+    ]
+  },
+
+  "FSSAI State License": {
+    "department_name": "Food Safety and Standards Authority of India",
+    "government_level": "State",
+    "description": "License for medium and large food businesses.",
+    "application_mode": "Online",
+    "portal": "FoSCoS",
+    "office_hours": "24x7 Online",
+    "average_processing_days": 15,
+    "renewal_required": true,
+    "renewal_period": "1-5 Years",
+    "common_rejection_reasons": [
+      "Kitchen layout not approved",
+      "Missing food safety plan",
+      "Incomplete documentation"
+    ]
+  },
+
+  "Drug License": {
+    "department_name": "State Drugs Control Department",
+    "government_level": "State",
+    "description": "Authorizes the sale of medicines and pharmaceutical products.",
+    "application_mode": "Online & Offline",
+    "portal": "State Drug Control Portal",
+    "office_hours": "10:00 AM - 05:00 PM",
+    "average_processing_days": 30,
+    "renewal_required": true,
+    "renewal_period": "5 Years",
+    "common_rejection_reasons": [
+      "No registered pharmacist",
+      "Improper storage facility",
+      "Missing pharmacist certificate"
+    ]
+  },
+
+  "Fire NOC": {
+    "department_name": "Fire & Rescue Services Department",
+    "government_level": "State",
+    "description": "Certifies compliance with fire safety regulations.",
+    "application_mode": "Online & Offline",
+    "portal": "State Fire Department Portal",
+    "office_hours": "09:00 AM - 05:00 PM",
+    "average_processing_days": 20,
+    "renewal_required": true,
+    "renewal_period": "3 Years",
+    "common_rejection_reasons": [
+      "Insufficient fire exits",
+      "Fire extinguishers missing",
+      "Emergency lighting not installed"
+    ]
+  },
+
+  "Pollution Clearance": {
+    "department_name": "State Pollution Control Board",
+    "government_level": "State",
+    "description": "Environmental approval for industrial and manufacturing businesses.",
+    "application_mode": "Online & Offline",
+    "portal": "SPCB Portal",
+    "office_hours": "09:30 AM - 05:30 PM",
+    "average_processing_days": 45,
+    "renewal_required": true,
+    "renewal_period": "5 Years",
+    "common_rejection_reasons": [
+      "Improper waste management plan",
+      "Missing environmental report",
+      "Emission limits exceeded"
+    ]
+  },
+
+  "Factory License": {
+    "department_name": "Labour Department",
+    "government_level": "State",
+    "description": "Approves factories under the Factories Act.",
+    "application_mode": "Online & Offline",
+    "portal": "State Labour Portal",
+    "office_hours": "09:30 AM - 05:30 PM",
+    "average_processing_days": 30,
+    "renewal_required": true,
+    "renewal_period": "Annual",
+    "common_rejection_reasons": [
+      "Unsafe factory layout",
+      "Worker safety measures inadequate",
+      "Building approval missing"
+    ]
+  },
+
+  "Startup India Registration": {
+    "department_name": "Department for Promotion of Industry and Internal Trade (DPIIT)",
+    "government_level": "Central",
+    "description": "Recognition for eligible startups under Startup India.",
+    "application_mode": "Online",
+    "portal": "Startup India Portal",
+    "office_hours": "24x7 Online",
+    "average_processing_days": 7,
+    "renewal_required": false,
+    "renewal_period": "Not Applicable",
+    "common_rejection_reasons": [
+      "Business not innovative",
+      "Entity not eligible",
+      "Incorrect incorporation details"
+    ]
+  },
+
+  "Shops & Establishment Registration": {
+    "department_name": "Labour Department",
+    "government_level": "State",
+    "description": "Registers commercial establishments under state labour laws.",
+    "application_mode": "Online",
+    "portal": "State Labour Portal",
+    "office_hours": "24x7 Online",
+    "average_processing_days": 5,
+    "renewal_required": true,
+    "renewal_period": "Annual",
+    "common_rejection_reasons": [
+      "Incorrect employee information",
+      "Business address mismatch"
+    ]
+  },
+
+  "Tourism Registration": {
+    "department_name": "State Tourism Department",
+    "government_level": "State",
+    "description": "Registers tourism and hospitality businesses.",
+    "application_mode": "Online & Offline",
+    "portal": "State Tourism Portal",
+    "office_hours": "09:30 AM - 05:30 PM",
+    "average_processing_days": 20,
+    "renewal_required": true,
+    "renewal_period": "3 Years",
+    "common_rejection_reasons": [
+      "Property standards not met",
+      "Incomplete accommodation details"
+    ]
+  }
+}

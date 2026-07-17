@@ -1,0 +1,313 @@
+{
+  "Bakery": {
+    "category": "Food Business",
+    "description": "Business involved in baking and selling bread, cakes, pastries and confectionery.",
+    "aliases": [
+      "bakery",
+      "cake shop",
+      "pastry shop",
+      "bread shop",
+      "biscuit shop",
+      "confectionery",
+      "bake shop"
+    ],
+    "sample_queries": [
+      "I want to start a bakery",
+      "I want to sell cakes",
+      "I want to bake bread",
+      "Open a pastry shop",
+      "Open a cake shop"
+    ],
+    "workflow": "Bakery"
+  },
+
+  "Restaurant": {
+    "category": "Food Business",
+    "description": "Business serving meals and beverages.",
+    "aliases": [
+      "restaurant",
+      "hotel restaurant",
+      "dining",
+      "food outlet",
+      "eatery"
+    ],
+    "sample_queries": [
+      "Open a restaurant",
+      "Start a restaurant",
+      "Serve food",
+      "Open a dining place"
+    ],
+    "workflow": "Restaurant"
+  },
+
+  "Cafe": {
+    "category": "Food Business",
+    "description": "Coffee shop or café.",
+    "aliases": [
+      "coffee shop",
+      "cafe",
+      "tea shop",
+      "coffee house",
+      "espresso bar"
+    ],
+    "sample_queries": [
+      "Open a coffee shop",
+      "Start a cafe",
+      "Open a tea shop"
+    ],
+    "workflow": "Cafe"
+  },
+
+  "Cloud Kitchen": {
+    "category": "Food Business",
+    "description": "Delivery-only food business.",
+    "aliases": [
+      "cloud kitchen",
+      "ghost kitchen",
+      "delivery kitchen",
+      "online food business"
+    ],
+    "sample_queries": [
+      "Start cloud kitchen",
+      "Sell food online",
+      "Delivery-only restaurant"
+    ],
+    "workflow": "Restaurant"
+  },
+
+  "Medical Store": {
+    "category": "Healthcare",
+    "description": "Retail pharmacy business.",
+    "aliases": [
+      "medical shop",
+      "pharmacy",
+      "chemist",
+      "drug store"
+    ],
+    "sample_queries": [
+      "Open a pharmacy",
+      "Start a medical shop",
+      "Open a chemist shop"
+    ],
+    "workflow": "Medical Store"
+  },
+
+  "Hospital": {
+    "category": "Healthcare",
+    "description": "Hospital or healthcare institution.",
+    "aliases": [
+      "hospital",
+      "healthcare centre",
+      "medical centre"
+    ],
+    "sample_queries": [
+      "Open a hospital",
+      "Start a healthcare centre"
+    ],
+    "workflow": "Hospital"
+  },
+
+  "Clinic": {
+    "category": "Healthcare",
+    "description": "Private medical clinic.",
+    "aliases": [
+      "clinic",
+      "doctor clinic",
+      "medical clinic"
+    ],
+    "sample_queries": [
+      "Open a clinic",
+      "Start a doctor's clinic"
+    ],
+    "workflow": "Clinic"
+  },
+
+  "Salon": {
+    "category": "Personal Services",
+    "description": "Beauty salon or grooming centre.",
+    "aliases": [
+      "beauty parlour",
+      "hair salon",
+      "barber shop",
+      "salon"
+    ],
+    "sample_queries": [
+      "Open a salon",
+      "Start a beauty parlour",
+      "Open a barber shop"
+    ],
+    "workflow": "Salon"
+  },
+
+  "Gym": {
+    "category": "Personal Services",
+    "description": "Fitness centre.",
+    "aliases": [
+      "fitness centre",
+      "gym",
+      "workout centre"
+    ],
+    "sample_queries": [
+      "Open a gym",
+      "Start a fitness centre"
+    ],
+    "workflow": "Gym"
+  },
+
+  "Hotel": {
+    "category": "Hospitality",
+    "description": "Hotel and accommodation business.",
+    "aliases": [
+      "hotel",
+      "resort",
+      "guest house",
+      "homestay"
+    ],
+    "sample_queries": [
+      "Open a hotel",
+      "Start a resort",
+      "Open a guest house"
+    ],
+    "workflow": "Hotel"
+  },
+
+  "IT Startup": {
+    "category": "Technology",
+    "description": "Technology startup company.",
+    "aliases": [
+      "software company",
+      "IT company",
+      "startup",
+      "tech startup",
+      "AI startup"
+    ],
+    "sample_queries": [
+      "Start a startup",
+      "Build a software company",
+      "Open an IT company",
+      "Launch an AI startup"
+    ],
+    "workflow": "IT Startup"
+  },
+
+  "Manufacturing Unit": {
+    "category": "Manufacturing",
+    "description": "Industrial manufacturing facility.",
+    "aliases": [
+      "factory",
+      "manufacturing plant",
+      "industrial unit"
+    ],
+    "sample_queries": [
+      "Start a factory",
+      "Open a manufacturing unit"
+    ],
+    "workflow": "Manufacturing Unit"
+  },
+
+  "Textile Unit": {
+    "category": "Manufacturing",
+    "description": "Textile manufacturing business.",
+    "aliases": [
+      "textile factory",
+      "garment factory",
+      "fabric manufacturing"
+    ],
+    "sample_queries": [
+      "Manufacture textiles",
+      "Open textile factory"
+    ],
+    "workflow": "Manufacturing Unit"
+  },
+
+  "Electronics Store": {
+    "category": "Retail",
+    "description": "Consumer electronics retail business.",
+    "aliases": [
+      "electronics shop",
+      "electrical shop",
+      "gadget store"
+    ],
+    "sample_queries": [
+      "Open an electronics shop",
+      "Sell electronic items"
+    ],
+    "workflow": "Clothing Store"
+  },
+
+  "Mobile Shop": {
+    "category": "Retail",
+    "description": "Mobile phone retail business.",
+    "aliases": [
+      "mobile shop",
+      "phone shop",
+      "smartphone store"
+    ],
+    "sample_queries": [
+      "Open a mobile shop",
+      "Sell smartphones"
+    ],
+    "workflow": "Clothing Store"
+  },
+
+  "EV Charging Station": {
+    "category": "Automotive",
+    "description": "Electric vehicle charging facility.",
+    "aliases": [
+      "EV charger",
+      "charging station",
+      "electric vehicle charging"
+    ],
+    "sample_queries": [
+      "Open EV charging station",
+      "Install EV charger"
+    ],
+    "workflow": "EV Charging Station"
+  },
+
+  "Travel Agency": {
+    "category": "Hospitality",
+    "description": "Travel booking and tourism business.",
+    "aliases": [
+      "travel agency",
+      "tour operator",
+      "tourism company"
+    ],
+    "sample_queries": [
+      "Start a travel agency",
+      "Open tourism company"
+    ],
+    "workflow": "Travel Agency"
+  },
+
+  "Warehouse": {
+    "category": "Logistics",
+    "description": "Storage and warehousing business.",
+    "aliases": [
+      "warehouse",
+      "storage facility",
+      "godown"
+    ],
+    "sample_queries": [
+      "Open warehouse",
+      "Start storage business"
+    ],
+    "workflow": "Warehouse"
+  },
+
+  "NGO": {
+    "category": "Non-Profit",
+    "description": "Non-governmental organization.",
+    "aliases": [
+      "ngo",
+      "trust",
+      "charitable organization",
+      "non profit"
+    ],
+    "sample_queries": [
+      "Start an NGO",
+      "Register a trust"
+    ],
+    "workflow": "NGO"
+  }
+}

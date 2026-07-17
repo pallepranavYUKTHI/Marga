@@ -1,0 +1,168 @@
+{
+  "Trade License": {
+    "minimum_days": 5,
+    "maximum_days": 10,
+    "average_days": 7,
+    "priority": "High",
+    "parallel_processing": true,
+    "depends_on": [],
+    "delay_risk": "Low"
+  },
+
+  "GST Registration": {
+    "minimum_days": 3,
+    "maximum_days": 7,
+    "average_days": 5,
+    "priority": "High",
+    "parallel_processing": true,
+    "depends_on": [],
+    "delay_risk": "Low"
+  },
+
+  "FSSAI Registration": {
+    "minimum_days": 7,
+    "maximum_days": 15,
+    "average_days": 10,
+    "priority": "High",
+    "parallel_processing": true,
+    "depends_on": [
+      "Trade License"
+    ],
+    "delay_risk": "Medium"
+  },
+
+  "FSSAI State License": {
+    "minimum_days": 10,
+    "maximum_days": 20,
+    "average_days": 15,
+    "priority": "High",
+    "parallel_processing": true,
+    "depends_on": [
+      "Trade License"
+    ],
+    "delay_risk": "Medium"
+  },
+
+  "Drug License": {
+    "minimum_days": 20,
+    "maximum_days": 45,
+    "average_days": 30,
+    "priority": "Critical",
+    "parallel_processing": false,
+    "depends_on": [
+      "Trade License"
+    ],
+    "delay_risk": "High"
+  },
+
+  "Fire NOC": {
+    "minimum_days": 15,
+    "maximum_days": 30,
+    "average_days": 20,
+    "priority": "Critical",
+    "parallel_processing": false,
+    "depends_on": [
+      "Building Approval"
+    ],
+    "delay_risk": "High"
+  },
+
+  "Pollution Clearance": {
+    "minimum_days": 30,
+    "maximum_days": 60,
+    "average_days": 45,
+    "priority": "Critical",
+    "parallel_processing": false,
+    "depends_on": [
+      "Factory Layout Approval"
+    ],
+    "delay_risk": "High"
+  },
+
+  "Factory License": {
+    "minimum_days": 20,
+    "maximum_days": 40,
+    "average_days": 30,
+    "priority": "Critical",
+    "parallel_processing": false,
+    "depends_on": [
+      "Pollution Clearance",
+      "Fire NOC"
+    ],
+    "delay_risk": "High"
+  },
+
+  "Startup India Registration": {
+    "minimum_days": 5,
+    "maximum_days": 10,
+    "average_days": 7,
+    "priority": "Medium",
+    "parallel_processing": true,
+    "depends_on": [],
+    "delay_risk": "Low"
+  },
+
+  "Shops & Establishment Registration": {
+    "minimum_days": 3,
+    "maximum_days": 7,
+    "average_days": 5,
+    "priority": "Medium",
+    "parallel_processing": true,
+    "depends_on": [],
+    "delay_risk": "Low"
+  },
+
+  "Clinical Establishment Registration": {
+    "minimum_days": 20,
+    "maximum_days": 40,
+    "average_days": 30,
+    "priority": "Critical",
+    "parallel_processing": false,
+    "depends_on": [
+      "Trade License"
+    ],
+    "delay_risk": "High"
+  },
+
+  "Tourism Registration": {
+    "minimum_days": 10,
+    "maximum_days": 25,
+    "average_days": 18,
+    "priority": "Medium",
+    "parallel_processing": true,
+    "depends_on": [],
+    "delay_risk": "Medium"
+  },
+
+  "Electricity Board Approval": {
+    "minimum_days": 15,
+    "maximum_days": 35,
+    "average_days": 25,
+    "priority": "High",
+    "parallel_processing": false,
+    "depends_on": [
+      "Trade License"
+    ],
+    "delay_risk": "Medium"
+  },
+
+  "Society Registration": {
+    "minimum_days": 20,
+    "maximum_days": 40,
+    "average_days": 30,
+    "priority": "Medium",
+    "parallel_processing": true,
+    "depends_on": [],
+    "delay_risk": "Medium"
+  },
+
+  "PAN Registration": {
+    "minimum_days": 5,
+    "maximum_days": 10,
+    "average_days": 7,
+    "priority": "Medium",
+    "parallel_processing": true,
+    "depends_on": [],
+    "delay_risk": "Low"
+  }
+}
