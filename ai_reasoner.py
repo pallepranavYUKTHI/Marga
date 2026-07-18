@@ -130,3 +130,23 @@ class AIReasoner:
             "next_step":
                 f"Begin with {info['approvals'][0]}."
         }
+
+from flask import Flask, jsonify
+
+app = Flask(__name__)
+
+@app.route('/api/get-workflow', methods=['GET'])
+def get_workflow():
+    # This matches the structure your WorkflowGraph expects
+    return jsonify({
+        "nodes": [
+            {"id": 1, "label": "Document Submission", "status": "Completed", "department": "Revenue"},
+            {"id": 2, "label": "Verification", "status": "Pending", "department": "Admin"}
+        ],
+        "edges": [
+            {"from": 1, "to": 2}
+        ]
+    })
+
+if __name__ == '__main__':
+    app.run(port=5000)
