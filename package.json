@@ -3,9 +3,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "start": "python3 ai_reasoner.py & npx sirv dist --port 3000 --single"
+  "dev": "vite",
+  "build": "vite build",
+  "start": "npx sirv dist --port 3000 --single"
+}
   },
   "dependencies": {
     "react": "^18.2.0",
