@@ -1,106 +1,51 @@
-"""
-ai_reasoner.py
-
-AI reasoning engine for Mārga.
-Analyzes a citizen's goal and recommends the required
-government approvals, documents and estimated timelines.
-"""
-
 from typing import Dict
+from flask import Flask, jsonify
+from flask_cors import CORS  # Required for frontend-backend communication
 
+app = Flask(__name__)
+CORS(app)  # Enables the React app to fetch data from this server
 
 class AIReasoner:
-
     def __init__(self):
-
         self.business_rules = {
             "bakery": {
-                "approvals": [
-                    "Trade License",
-                    "GST Registration",
-                    "FSSAI License"
-                ],
-                "documents": [
-                    "Aadhaar",
-                    "PAN",
-                    "Rental Agreement",
-                    "Building Plan"
-                ],
+                "approvals": ["Trade License", "GST Registration", "FSSAI License"],
+                "documents": ["[Aadhaar Redacted]", "PAN", "Rental Agreement", "Building Plan"],
                 "days": 14,
                 "department": "Commerce"
             },
-
             "restaurant": {
-                "approvals": [
-                    "Trade License",
-                    "GST Registration",
-                    "FSSAI License",
-                    "Fire NOC"
-                ],
-                "documents": [
-                    "Aadhaar",
-                    "PAN",
-                    "Rental Agreement",
-                    "Fire Safety Certificate"
-                ],
+                "approvals": ["Trade License", "GST Registration", "FSSAI License", "Fire NOC"],
+                "documents": ["[Aadhaar Redacted]", "PAN", "Rental Agreement", "Fire Safety Certificate"],
                 "days": 21,
                 "department": "Commerce"
             },
-
             "shop": {
-                "approvals": [
-                    "Trade License",
-                    "GST Registration"
-                ],
-                "documents": [
-                    "Aadhaar",
-                    "PAN",
-                    "Rental Agreement"
-                ],
+                "approvals": ["Trade License", "GST Registration"],
+                "documents": ["[Aadhaar Redacted]", "PAN", "Rental Agreement"],
                 "days": 10,
                 "department": "Revenue"
             },
-
             "building permit": {
-                "approvals": [
-                    "Municipality Approval",
-                    "Engineering Review"
-                ],
-                "documents": [
-                    "Building Plan",
-                    "Ownership Proof",
-                    "Tax Receipt"
-                ],
+                "approvals": ["Municipality Approval", "Engineering Review"],
+                "documents": ["Building Plan", "Ownership Proof", "Tax Receipt"],
                 "days": 30,
                 "department": "Engineering"
             }
         }
 
     def classify(self, goal: str):
-
         goal = goal.lower()
-
         for key in self.business_rules:
-
             if key in goal:
                 return key
-
         return "general"
 
-    def analyze(
-        self,
-        goal: str,
-        state: str = "Kerala",
-        business_type: str = ""
-    ) -> Dict:
-
+    def analyze(self, goal: str, state: str = "Kerala", business_type: str = "") -> Dict:
         category = business_type.lower().strip()
-
         if category == "":
             category = self.classify(goal)
-
         if category not in self.business_rules:
-
             return {
                 "category": "General Service",
                 "department": "Administration",
@@ -110,34 +55,21 @@ class AIReasoner:
                 "confidence": 0.60,
                 "next_step": "Submit request for manual review."
             }
-
         info = self.business_rules[category]
-
         return {
-
             "category": category.title(),
-
             "department": info["department"],
-
             "approvals": info["approvals"],
-
             "documents": info["documents"],
-
             "estimated_days": info["days"],
-
             "confidence": 0.95,
-
-            "next_step":
-                f"Begin with {info['approvals'][0]}."
+            "next_step": f"Begin with {info['approvals'][0]}."
         }
 
-from flask import Flask, jsonify
-
-app = Flask(__name__)
+# --- API Endpoints ---
 
 @app.route('/api/get-workflow', methods=['GET'])
 def get_workflow():
-    # This matches the structure your WorkflowGraph expects
     return jsonify({
         "nodes": [
             {"id": 1, "label": "Document Submission", "status": "Completed", "department": "Revenue"},
@@ -149,4 +81,4 @@ def get_workflow():
     })
 
 if __name__ == '__main__':
-    app.run(port=5000)
+    app.run(host='0.0.0.0', port=5000)
