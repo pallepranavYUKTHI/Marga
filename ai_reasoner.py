@@ -1,9 +1,4 @@
-import os
-from flask import Flask
-from flask_cors import CORS
 
-app = Flask(__name__)
-CORS(app)
 from typing import Dict
 from flask import Flask, jsonify
 from flask_cors import CORS  # Required for frontend-backend communication
@@ -85,8 +80,4 @@ def get_workflow():
             {"from": 1, "to": 2}
         ]
     })
-if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+
